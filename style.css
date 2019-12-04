@@ -1,0 +1,331 @@
+	/* import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css?family=Anton|Cookie|Courgette|Gugi|Lato|Permanent+Marker|Poiret+One|Reenie+Beanie|Roboto|Satisfy|Sofia|Viga&display=swap');
+
+:root{
+ --gray:#578661;
+ --primary-color:#299617;
+ --border:#108729;
+ --text-color: #034712;
+ --anton:"Anton",cursive;
+ --cookie:"Cookie",cursive;
+ --gugi:"Gugi",cursive;
+ --satisfy:"Satisfy",cursive;
+ --sofia:"Sofia",cursive;
+ --lato:"Lato",cursive;
+ --courgette:"Courgette",sans-serif;
+ --roboto:"Roboto",sans-serif;
+ --reenie+Beanie:"Reenie+Beanie",sans-serif;
+ --permanentarker:"Permanent+Marker",cursive;
+ --Poiretne:"Poiret+One";
+ --Vigasplayswap:"Viga&display=swap";
+}
+
+.primary-color{
+ color:var(--primary-color);
+}
+
+.bg-primary-color{
+  background-color:var(--primary-color)!important;
+}
+
+.text-color{
+   color:var(--text-color);
+}
+
+.font-roboto{
+   font-family:var(--roboto);
+}
+
+.lightgreen{
+  color: lightgreen;
+}
+
+/*header*/
+
+header{
+ 
+ font-family:var(--Poiretne);
+ padding:10%;
+ padding-left:800px;
+ padding-top:190px;
+
+}
+.hello
+{
+ background-image: url("bg.jpg");
+ background-position: right bottom, left top;
+ background-size: 100% 100%;
+ background-repeat: no-repeat, repeat;
+}
+
+.container-fluid{
+
+background-color:green;
+}
+
+header .site-title{
+ font-family:var(--sofia);
+ font-size:96px;
+ color: #990011FF;
+ 
+}
+
+body{
+ background-image: url("2.png");
+ background-position: right bottom, left top;
+ background-size: 100% 10%;
+ background-repeat: no-repeat, repeat;
+
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item{
+  font-size:0.9em;
+}
+
+.header-links a{
+  font-size:25px;
+  text-decoration:none;
+  color:#990011FF;
+}
+
+/* Navigation Menu**/
+
+.navbar-nav{
+  padding: 0.8em 1em;
+  text-align:;
+}
+.navbar{
+ background-color:#2a33a1; 
+}
+.navbar-nav .nav-link{
+  font-size:1.1em;
+  text-decoration:bold;
+  font-family:var(--gugi);
+  color:#900C3F;
+}
+
+.navbar-nav .nav-item .nan-link{
+  padding:0 1.3em;
+}
+
+.navbar-nav {
+ padding-right: 250px;
+
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white  !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 4px;
+}
+
+
+
+/* slide**/
+#slideshow { 
+    margin: 50px auto; 
+    position: relative;
+     
+    width: 95%; 
+    height: 540px; 
+    padding-top: 100px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    background-color:white; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.boxhead a{
+ 
+  text-decoration:none;
+  
+}
+
+/*gallery*/
+* {
+  box-sizing: border-box;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -8px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 40%;
+    
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 900%;
+    
+  }
+}
+/*seo**/
+
+dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white  !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 4px;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.drop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+/*side**/
+
+
+/*usr lang**/
+.onian {
+  background-color: #4CAF50;
+  color: white;
+  padding: 9px;
+  padding-left:9px;
+  font-size: 16px;
+  border: 2px;
+  cursor: pointer;
+  min-width: 100px;
+  border-radius: 4px;
+}
+
+.dream {
+  position: relative;
+  padding-right:3px;
+  display: inline-block;
+}
+
+.join {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.join a {
+  color: black;
+  padding: 15px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.join a:hover {background-color: #f1f1f1}
+
+.dream:hover .join {
+  display: block;
+}
+
+.dream:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*!usr lang**/
+
